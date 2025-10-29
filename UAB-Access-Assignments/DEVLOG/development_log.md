@@ -1,0 +1,34 @@
+# Development Log
+
+- 2025-10-29T05:03:20Z - Created DEVLOG/development_log.md (initialized development log).
+- 2025-10-29T05:03:33Z - Created README.md with project overview and verification checklists.
+- 2025-10-29T05:03:36Z - Added placeholder database file module3_queries/module3.accdb for automation output.
+- 2025-10-29T05:03:37Z - Added placeholder database file chapter4_forms/chapter4.accdb for automation output.
+- 2025-10-29T05:03:38Z - Added placeholder database file capstone1/capstone.accdb for automation output.
+- 2025-10-29T05:04:00Z - Authored common/build_access.vbs to orchestrate Access automation for all assignments.
+- 2025-10-29T05:04:51Z - Created common/modules/AccessBuild.bas with build orchestration, logging, and import helpers.
+- 2025-10-29T05:04:59Z - Authored common/modules/CsvImport.bas implementing TransferText import with logging.
+- 2025-10-29T05:05:23Z - Authored common/modules/SqlRunner.bas with SAVEQUERY parsing and idempotent CREATE TABLE support.
+- 2025-10-29T05:05:35Z - Authored common/modules/RelationshipSetup.bas with reusable DAO relationship helper.
+- 2025-10-29T05:06:23Z - Authored chapter4_forms/vba/FormsBuilder.bas to generate CustomerEntry UI components.
+- 2025-10-29T05:06:38Z - Updated AccessBuild.bas with UI helper commands FilterCustomersByCity and CustomerCommand constants.
+- 2025-10-29T05:07:19Z - Authored capstone1/vba/CapstoneForms.bas to generate switchboard, maintenance, and order entry forms.
+- 2025-10-29T05:07:38Z - Authored capstone1/vba/CapstoneReports.bas to automate report generation.
+- 2025-10-29T05:07:45Z - Added module3_queries/data/customers.csv with 10 sample customers for query exercises.
+- 2025-10-29T05:07:51Z - Created module3_queries/sql/01_setup_tables.sql defining the Customers table.
+- 2025-10-29T05:08:01Z - Authored module3_queries/sql/02_queries.sql defining saved SELECT queries with parameter example.
+- 2025-10-29T05:08:12Z - Documented module3_queries/instructions.md with build and verification steps.
+- 2025-10-29T05:08:22Z - Added chapter4_forms/data/customers.csv with eight sample customers.
+- 2025-10-29T05:08:28Z - Added chapter4_forms/data/orders.csv with sample customer orders.
+- 2025-10-29T05:08:36Z - Created chapter4_forms/sql/01_setup_tables.sql with Customers and Orders definitions.
+- 2025-10-29T05:08:46Z - Documented chapter4_forms/instructions.md with form usage guidance.
+- 2025-10-29T05:08:53Z - Added capstone1/data/customers.csv with regional customer sample set.
+- 2025-10-29T05:09:00Z - Added capstone1/data/products.csv with 10 active products for sales scenarios.
+- 2025-10-29T05:09:05Z - Added capstone1/data/orders.csv with seven sample orders.
+- 2025-10-29T05:09:17Z - Added capstone1/data/order_details.csv with calculated line totals.
+- 2025-10-29T05:09:24Z - Created capstone1/sql/01_schema.sql defining four core tables.
+- 2025-10-29T05:09:34Z - Authored capstone1/sql/02_seed.sql to normalize Active flags and recompute line totals.
+- 2025-10-29T05:09:44Z - Authored capstone1/sql/03_queries.sql with parameter, aggregation, and join queries.
+- 2025-10-29T05:09:57Z - Documented capstone1/instructions.md covering run, review, and troubleshooting steps.
+- 2025-10-29T05:10:15Z - Updated CapstoneForms.bas to display the OrderDetails form footer for totals.
+- 2025-10-29T05:10:22Z - Added acViewPreview constant in CapstoneForms.bas for report previews.
